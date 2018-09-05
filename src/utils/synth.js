@@ -2,7 +2,7 @@ import Tone from 'tone';
 
 class Synth {
   constructor() {
-    this.instance = new Tone.PolySynth(8, Tone.Synth).toMaster();
+    this.instance = new Tone.PolySynth(16, Tone.Synth).toMaster();
   }
 }
 

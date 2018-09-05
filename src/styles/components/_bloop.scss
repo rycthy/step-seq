@@ -1,7 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(8, 80px);
-  grid-template-rows: repeat(8, 80px);
+  grid-template-columns: repeat(16, 40px);
+  grid-template-rows: repeat(16, 40px);
   grid-auto-flow: column;
   // grid-gap: 10px;
   margin: 2rem;
@@ -15,7 +15,6 @@
   border: solid;
   width: 40px;
   height: 40px;
-  margin-bottom: 5px;
-  flex-direction: row;
+  // margin-bottom: 5px;
   background: gray;
 }
