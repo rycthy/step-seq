@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 80px);
+  grid-template-rows: repeat(8, 80px);
+  grid-auto-flow: column;
+  // grid-gap: 10px;
+  margin: 2rem;
+}
+
+.bloop-false {
+  grid-column-start: auto;
+  grid-column-end: auto;
+  grid-row-start: auto;
+  grid-row-end: auto;
+  border: solid;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  flex-direction: row;
+  background: gray;
+}
